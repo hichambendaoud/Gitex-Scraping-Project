@@ -34,50 +34,8 @@ This project involves scraping data from the Gitex website to extract company pr
 ├── visuals/
 │   ├── dashboard_preview.png         # Screenshot of the Power BI report
 ├── Gitex_Report.pbix                 # Power BI report file
-├── README.md                         # Project documentation
-└── requirements.txt                  # Required Python libraries
+└── README.md                         # Project documentation
 ```
----
-
-## **Steps to Reproduce**
-### 1. **Environment Setup**
-- Clone this repository:
-  ```bash
-  git clone <repository-url>
-  cd <repository-folder>
-  ```
-- Install the required Python packages:
-  ```bash
-  pip install -r requirements.txt
-  ```
-
-### 2. **Extract Data**
-- Run the script to scrape company names:
-  ```bash
-  python code/extract_companies.py
-  ```
-- Normalize and extract detailed profiles:
-  ```bash
-  python code/normalize_and_extract.py
-  ```
-
-### 3. **Perform Analysis**
-- Conduct exploratory data analysis and keyword analysis:
-  ```bash
-  python code/eda_and_keywords_analysis.py
-  ```
-
-### 4. **Move Data to Power BI**
-- Prepare the data for Power BI by running:
-  ```bash
-  python code/move_to_powerbi.py
-  ```
-- Import `processed_data.csv` into Power BI Desktop.
-
-### 5. **View the Dashboard**
-- Open `Gitex_Report.pbix` in Power BI Desktop.
-- Interact with the dashboard to explore insights.
-  
 ---
 ## **Key Insights**
 1. **Company Distribution**:
@@ -93,8 +51,10 @@ This project involves scraping data from the Gitex website to extract company pr
 
 4. **Descriptions**:
    - Rich descriptions provide insights into company offerings.
-
 ---
 
 ## **Power BI Dashboard**
-![Dashboard Preview](visuals/dashboard_preview.png)
+![Dashboard Preview](https://github.com/hichambendaoud/Patient-record/blob/main/assets/dashboard_preview.png)
+
+Explore the interactive dashboard on Power BI Service:  
+[Power BI Dashboard](https://app.powerbi.com/links/TgY46y8QCm?ctid=3bd72a86-a8ea-44a6-a899-f3cccbedf027&pbi_source=linkShare)
