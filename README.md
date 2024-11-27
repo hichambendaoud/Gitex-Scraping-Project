@@ -53,7 +53,11 @@ This project involves scraping data from the Gitex website to extract company pr
    - Rich descriptions provide insights into company offerings.
 ---
 ## **Power BI Dashboard**
-![Dashboard Preview](https://github.com/hichambendaoud/Gitex-Scraping-Project/blob/main/assets/dashboard_preview.png)
+![Dashboard Preview](./assets/dashboard_preview.png)
+
+You can either **download** the Power BI report file or **view** it online.
+
+- **Download the Power BI report file**: [Download](https://github.com/hichambendaoud/Patient-record/blob/main/Patient_Records.pbix)
 
 Explore the interactive dashboard on Power BI Service:  
 [Power BI Dashboard](https://app.powerbi.com/links/TgY46y8QCm?ctid=3bd72a86-a8ea-44a6-a899-f3cccbedf027&pbi_source=linkShare)
